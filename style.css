@@ -35,18 +35,17 @@ h1 {
   height: 100vh;
 }
 
-article {
+.article {
   width: 500px;
 }
-
-p {
-  text-align: justify;
-}
-p a {
+.article__link {
   background-size: 100% 100%;
 }
-p a:hover {
-  animation: underline 0.5s both;
+.article__link:hover {
+  animation: underline 0.6s both;
+}
+.article__content p {
+  text-align: justify;
 }
 
 @keyframes underline {
